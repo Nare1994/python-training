@@ -1,35 +1,35 @@
 """
-Калькулятор: сложение, вычитание, умножение, деление.
+Calculator: addition, subtraction, multiplication, and division.
 
-Простой калькулятор с четырьмя операциями.
-Каждая операция — отдельная функция.
+A simple calculator with four operations.
+Each operation is implemented as a separate function.
 """
 
 
 def add(a, b):
-    """Сложение: возвращает a + b."""
+    """Addition: returns a + b."""
     return a + b
 
 
 def subtract(a, b):
-    """Вычитание: возвращает a - b."""
+    """Subtraction: returns a - b."""
     return a - b
 
 
 def multiply(a, b):
-    """Умножение: возвращает a * b."""
+    """Multiplication: returns a * b."""
     return a * b
 
 
 def divide(a, b):
-    """Деление: возвращает a / b. Если b == 0 — ошибка."""
+    """Division: returns a / b. Returns an error if b == 0."""
     if b == 0:
-        return "Ошибка: деление на ноль"
+        return "Error: division by zero"
     return a / b
 
 
 def main():
-    """Точка входа: запускает примеры."""
+    """Entry point: runs example calculations."""
     print(add(2, 3))
     print(subtract(10, 2))
     print(multiply(3, 4))
