@@ -34,7 +34,6 @@ def main():
     print(subtract(10, 2))
     print(multiply(3, 4))
     print(divide(20, 3))
-    print(divide(20, 0))
 
 
 if __name__ == "__main__":
