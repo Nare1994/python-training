@@ -1,27 +1,30 @@
-# Python Training
+# Тренировка Python
 
-Training and review of Python for backend development.
+Тренировка и повторение Python для backend-разработки.
 
-## About
+## О проекте
 
-Repository for training and reviewing Python.
-Restoring and reinforcing backend development skills.
+Репозиторий для тренировки и повторения Python.
+Восстанавливаю и закрепляю навыки backend-разработки.
 
-## Contents
+## Что здесь
 
-- `calculator.py` — calculator (basics review)
-- `fizzbuzz.py` — FizzBuzz (loops and conditions)
+- `calculator.py` — калькулятор (повторение основ)
+- `fizzbuzz.py` — FizzBuzz (циклы и условия)
+- `palindrome.py` — палиндром (строки и срезы)
 
-## Tasks
+## Задачи
 
-### Calculator
+### Калькулятор
 
-A simple calculator with four operations:
-- Addition
-- Subtraction
-- Multiplication
-- Division
+Простой калькулятор с четырьмя операциями:
 
-Run:
+- Сложение
+- Вычитание
+- Умножение
+- Деление
+
+Запуск:
+
 ```bash
 python calculator.py
