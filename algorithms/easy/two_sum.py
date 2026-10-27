@@ -21,3 +21,6 @@ def two_sum(nums: list[int], target: int) -> list[int]:
 
 
 print(two_sum([7, 2, 11, 15], 9))
+
+
+
