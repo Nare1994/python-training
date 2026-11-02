@@ -2,6 +2,13 @@
 Поиск максимального числа в списке — тремя способами.
 """
 
+def max_loop(numbers):
+    max_num = numbers[0]
+    for num in numbers:
+        if num > max_num:
+            max_num = num
+    return max_num
+
 
 def max_loop(numbers):
     """Способ 1: цикл."""
@@ -10,7 +17,7 @@ def max_loop(numbers):
         if num > max_num:          # Если число больше текущего максимума
             max_num = num          # Обновляем максимум
     return max_num
-
+#
 
 def max_builtin(numbers):
     """Способ 2: встроенная функция max()."""
@@ -19,7 +26,7 @@ def max_builtin(numbers):
 
 def max_sorted(numbers):
     """Способ 3: сортировка."""
-    return sorted(numbers)[-1]     # Последний элемент — максимальный
+    return sorted(numbers)[-1]  # Последний элемент — максимальный
 
 
 if __name__ == "__main__":

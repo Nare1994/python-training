@@ -7,6 +7,7 @@ https://leetcode.com/problems/palindrome-number/
 """
 
 
+
 def palindrome(x: int) -> bool:
     """Проверяет, является ли число палиндромом."""
     if x < 0:  # Отрицательные не могут быть палиндромами

@@ -12,6 +12,7 @@ https://leetcode.com/problems/two-sum/
 # Output: [0,1]
 
 
+
 def two_sum(nums: list[int], target: int) -> list[int]:
     for index in range(len(nums)):  # Первый индекс
         for j in range(index + 1, len(nums)):  # Второй индекс (только после i)
@@ -21,6 +22,3 @@ def two_sum(nums: list[int], target: int) -> list[int]:
 
 
 print(two_sum([7, 2, 11, 15], 9))
-
-
-
