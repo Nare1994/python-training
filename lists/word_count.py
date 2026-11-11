@@ -14,6 +14,7 @@
 
 world_counts = input("Пользователь вводит слово: ")
 
+
 result = world_counts.split()
 
 print(result)                 # Список слов

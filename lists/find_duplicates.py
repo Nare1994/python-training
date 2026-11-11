@@ -4,7 +4,8 @@
 # которые встречаются в списке более одного раза.
 
 
-number = [1, 2, 5, 7, 14, 1, 5]
+number = [1, 2, 5, 7, 14, 1, 5, 7]
+
 
 duplicates = []
 
@@ -15,3 +16,4 @@ for num in number:
         duplicates.append(num)  # добавляем дубликат
 
 print(duplicates)
+
